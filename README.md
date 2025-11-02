@@ -43,25 +43,6 @@ Pytest	Unit testing framework
 
 ⚡ Faster performance through parallel LangGraph execution
 
-# --- Define parallel workflow ---
-graph.add_edge(START, "extr_history")
-graph.add_edge(START, "extr_image")
-graph.add_edge(START, "extr_med")
-
-# Independent branches join here
-graph.add_edge("extr_med", "fda_lookup")
-graph.add_edge("extr_history", "merge_text")
-graph.add_edge("extr_image", "merge_text")
-graph.add_edge("extr_med", "merge_text")
-
-# Sequential section resumes
-graph.add_edge("merge_text", "gen_llm_Qprompt")
-graph.add_edge("gen_llm_Qprompt", "gen_llm_Qjson")
-graph.add_edge("gen_llm_Qjson", "retrieved_chunksk")
-graph.add_edge("retrieved_chunksk", "build_compliance_prompt")
-graph.add_edge("build_compliance_prompt", "compliance_check_llm")
-graph.add_edge("compliance_check_llm", END)
-
 🧭 How It Works:
 
 Parallel start: History, image, and medicine extraction run simultaneously.
