@@ -3,6 +3,8 @@
 MVP Prototype for Healthcare Compliance Checking
 Now upgraded with parallel LangGraph workflows — enabling faster, more efficient compliance processing by running independent extraction and analysis nodes simultaneously.
 
+![parallel work flow](https://github.com/user-attachments/assets/ab668fbe-de45-4117-9cca-0e42ca7617bd)
+
 🚀 What’s New in v1.1
 
 ✅ Parallel Workflow Execution
@@ -42,8 +44,6 @@ Pytest	Unit testing framework
 📊 Interactive Streamlit dashboard for doctors
 
 ⚡ Faster performance through parallel LangGraph execution
-
-![parallel work flow](https://github.com/user-attachments/assets/ab668fbe-de45-4117-9cca-0e42ca7617bd)
 
 
 🧭 How It Works:
