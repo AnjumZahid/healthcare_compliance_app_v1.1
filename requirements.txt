@@ -1,0 +1,16 @@
+langgraph
+langchain
+dotenv
+langchain-google-genai
+ipython
+streamlit
+langchain-community
+pypdf
+chromadb
+easyocr
+fitz
+langchain-mcp-adapters
+tensorflow
+pillow
+fastapi
+streamlit-tags
