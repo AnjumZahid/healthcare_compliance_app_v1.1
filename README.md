@@ -43,6 +43,9 @@ Pytest	Unit testing framework
 
 ⚡ Faster performance through parallel LangGraph execution
 
+![parallel work flow](https://github.com/user-attachments/assets/ab668fbe-de45-4117-9cca-0e42ca7617bd)
+
+
 🧭 How It Works:
 
 Parallel start: History, image, and medicine extraction run simultaneously.
